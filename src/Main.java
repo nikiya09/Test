@@ -16,5 +16,6 @@ public class Main {
         User user = new User();
         user.setName("nikiya");
         user.printName();
+        System.out.println("some change");
     }
 }
