@@ -12,6 +12,9 @@ public class Main {
                 System.out.println();
             }
         }
-        System.out.println("some change");
+        System.out.println();
+        User user = new User();
+        user.setName("nikiya");
+        user.printName();
     }
 }
