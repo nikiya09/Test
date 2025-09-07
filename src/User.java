@@ -4,7 +4,7 @@ public class User {
         this.name = name;
     }
 
-    public void getName(){
-        System.out.println(this.name);
+    public void printName(){
+        System.out.println("Hi "+ this.name + ", you are cool");
     }
 }
